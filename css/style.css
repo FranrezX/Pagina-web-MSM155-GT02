@@ -18,6 +18,15 @@ h1.main{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.capa_translucido{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
 body{
     margin: 0;
     background-color: #9bfab0;
