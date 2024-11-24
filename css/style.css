@@ -31,3 +31,29 @@ body{
     margin: 0;
     background-color: #9bfab0;
 }
+
+.contenedor{
+    display: flex;
+    margin-top: 20px;
+}
+
+.tarjeta{
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 200px;
+    background-color: white;
+    flex: 1;
+    transition: .3s all ease;
+    
+}
+.tarjeta img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.tarjeta:hover{
+    flex: 2;
+    background-color: rgba(25, 31, 31, 0.344);
+}
