@@ -75,10 +75,6 @@ h1.main{
     display: block;
 }
 
-.pantalla:first-of-type{
-    display: block;
-}
-
 header {
     background-color: #FFA500;
     text-align: center;
