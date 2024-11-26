@@ -13,7 +13,6 @@ body{
 }
 
 .barra_navegacion{
-    border-radius: 20px;
     padding: 15px;
     background: linear-gradient(90deg, #FF6347, #2575fc);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
