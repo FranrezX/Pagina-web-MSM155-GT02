@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #9bfab0;
+    background-color: #A3C680;
 }
 
 .header_inicio{
@@ -14,7 +14,7 @@ body{
 
 .barra_navegacion{
     padding: 15px;
-    background: linear-gradient(90deg, #FF6347, #2575fc);
+    background: linear-gradient(90deg, #FF6347, #853c1f);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -44,6 +44,7 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    color: black;
 }
 
 h1.main{
@@ -74,7 +75,7 @@ h1.main{
     padding: 2px;
     margin: 0 auto ;
     border-radius: 20px;
-    background-color: #E9F5FF;
+    background-color: #FFF8A6;
     color: #000000;
 }
 
@@ -87,7 +88,7 @@ h1.main{
 }
 
 header {
-    background-color: #FFA500;
+    background-color: #F4A259;
     text-align: center;
     color: white;
 }
@@ -129,7 +130,7 @@ header {
 .seccion {
     width: 300px;
     text-align: center;
-    background: white;
+    background: #FFF8A6;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -149,7 +150,7 @@ header {
 .seccion h2 {
     margin: 10px 0;
     font-size: 1.5em;
-    color: #FFA500;
+    color: #FF6347;
 }
 
 .seccion p {
@@ -160,10 +161,11 @@ header {
 
 .contenido-recetas {
     padding: 20px;
+    text-align: center;
 }
 
 .receta {
-    background: white;
+    background: #FFF8A6;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -191,7 +193,9 @@ header {
 }
 
 .btn-volver:hover {
-    background-color: #FFA500;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15)
 }
 
 .informacion{
@@ -200,13 +204,13 @@ header {
     margin: 20px ;
     border-radius: 30px;
     border: 2px solid black;
-    background-color: #E9F5FF;
+    background-color: #FFF8A6;
     font-family: Arial, sans-serif;
     color: #000000;
 }
 
 .header {
-    background-color: #FFA500;
+    background-color: #F4A259;
     color: white;
     text-align: center;
     padding: 20px;
@@ -229,14 +233,14 @@ header {
 
 .imagen img {
     width: 100%;
-    height: 500px;
+    height: 600px;
     object-fit: cover;
 }
 
 .info {
     display: flex;
     justify-content: space-around;
-    background: #f9f9f9;
+    background: #FFF8A6;
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
@@ -258,7 +262,7 @@ header {
 
 .ingredientes h3, .elaboracion h3 {
     margin-top: 0;
-    color: #FFA500;
+    color: #FF6347;
 }
 
 .ingredientes ul {
@@ -273,8 +277,8 @@ header {
 .tip {
     margin-top: 15px;
     padding: 10px;
-    background: #FFF8E1;
-    border-left: 5px solid #FFA500;
+    background: #FFF8A6;
+    border-left: 5px solid #FF6347;
     font-size: 14px;
 }
 
@@ -282,10 +286,10 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 14px;
-    background: #f9f9f9;
+    background: #FFF8A6;
 }
 
 footer a {
-    color: #FFA500;
+    color: #FF6347;
     text-decoration: none;
 }
