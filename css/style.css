@@ -5,6 +5,7 @@ body{
 
 .header_inicio{
     position: relative;
+    margin-bottom: 10px;
     width: 100%;
     height: 400px;
     background: url('https://img.freepik.com/foto-gratis/vista-superior-mesa-llena-comida_23-2149209253.jpg') no-repeat center;
@@ -100,7 +101,7 @@ header {
 
 .destacado{
     border-radius: 20px;
-    margin-left: 15px;
+    margin: 10px;
     height: 200px;
     background-color: white;
     flex: 1;
@@ -165,11 +166,12 @@ header {
 }
 
 .receta {
+    margin: 20px;
     background: #FFF8A6;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
+   
 }
 
 .receta h2 {
@@ -190,6 +192,8 @@ header {
     padding: 8px 12px;
     border-radius: 5px;
     font-size: 1em;
+    position: absolute;        
+    left: 20px;                 
 }
 
 .btn-volver:hover {
@@ -214,6 +218,9 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;              
+    justify-content: center;  
+    align-items: center;
 }
 
 .header h1 {
