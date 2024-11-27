@@ -1,0 +1,94 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    .header_inicio {
+        height: 250px; 
+    }
+
+    .barra_navegacion {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .links_navegacion li{
+        display: inline; 
+    }
+
+    .links_navegacion a {
+        margin: 8px 0; 
+        font-size: 1.1em; 
+    }
+
+    h1.main{
+        font-size: 2rem;
+    }
+    .cuadro {
+        width: 90%; 
+        font-size: 0.85em;
+    }
+
+    .destacados {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .destacado {
+        width: 75%; 
+        margin: 10px 0; 
+        height: auto; 
+    }
+
+    .secciones {
+        flex-wrap: wrap;
+        gap: 25px; 
+        margin: 10px;
+    }
+
+    .seccion {
+        width: 40%; 
+        margin-bottom: 10px;
+    }
+
+    .info {
+        flex-direction: column; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    .info .detalle {
+        margin-bottom: 10px; 
+    }
+    .informacion{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .contenido {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .ingredientes, .elaboracion {
+        width: 100%; 
+    }
+
+    .imagen img {
+        height: 300px; 
+    }
+    .header h2{
+        font-size: 1.4rem;
+
+    }
+    .contactos{
+        width: 70%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .btn-volver {
+        font-size: 0.65rem; 
+        left: 5px;
+    
+    }
+
+    footer {
+        font-size: 0.85em; 
+    }
+}
